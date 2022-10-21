@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.container-fluid{
+	margin: 0;
+	padding: 0;
+    border: 1px solid rgb(10, 10, 10);
+}
+
+.navbar{
+	border-radius: 0px;
+    border: 3px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.navbar-brand{
+    font-style: italic;
+    font-size: 35px;
+    color: white;
+    padding-left: 40px;
+  }
+
+.navbar-brand:hover{
+	color: #339dcf;
+}
+
+.nav{
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggle{
+	border: 2px solid white;
+	margin-right: 20px;
+}
+
+.icon-bar{
+	background-color: white;
+}
+
+
+body {
+   background-color: #ffffff91
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family: cursive;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 2px 2px 8px hsl(36, 7%, 86%);
+    color: #00a933d4;
+}
+
+li{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.menu-item{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: #ffffff99;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+	color: rgb(33, 47, 54);
+	display: block;
+}
+
+.menu-item:hover{
+	background-color: rgba(89, 64, 173, 0.9);
+	color: rgba(115, 18, 212, 0.4);
+}
+
+section>div {
+  position: relative;
+  height: auto;
+  padding: 10px;
+  background-color: hwb(0 13% 55%);
+  margin-bottom: 20px;
+}
+
+
+
+.row {
+    margin: 20px;
+  }
+
+
+.content-name {
+    text-align: center;
+    font-family: 'Courier New';
+	font-size: 30px;
+	font-weight: bold;
+    color: #fffefe;
+}
+
+.content {
+  padding: 5px;
+  border: none;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 130%;
+  color: #fffefe;
+  margin: 3px ;
+  height: auto;
+  overflow: off;
+}
+
+
+
+
+
